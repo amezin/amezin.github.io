@@ -5,6 +5,7 @@ baseurl: ""
 url: "https://amezin.github.io/"
 github_username: amezin
 linkedin_profile: alexandermezin
+disqus_shortname: amezin
 
 # Build settings
 markdown: kramdown
