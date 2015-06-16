@@ -24,3 +24,5 @@ Unfortunately, graduating from university took a lot more time than I expected. 
 I heard Touchpad KCM code looked scary for people who reviewed it. Especially the XInput-related code. So as a first step I decided to implement a nice (to my taste) utility library. Currently it can handle XInput hierarchy and property notifications, enumerates devices and change their properties. There's also few tests for it.
 
 For now I'll be keeping all my code in [this scratch repo](http://quickgit.kde.org/?p=scratch%2Falexandermezin%2Fpointing-devices-kcm.git).
+
+UPD: Looks like xcb_input_xi_change_property is broken in current release of XCB. It triggers assert() for property values that have length not divisible by 4 (bytes). And even git version has this problem too. But there is a [patch available on XCB mailing list](http://lists.freedesktop.org/archives/xcb/2015-June/010385.html) that fixes the problem.
