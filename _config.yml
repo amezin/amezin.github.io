@@ -1,0 +1,10 @@
+# Site settings
+title: Alexander Mezin
+email: mezin.alexander@gmail.com
+baseurl: ""
+url: "https://amezin.github.io/"
+github_username: amezin
+linkedin_profile: alexandermezin
+
+# Build settings
+markdown: kramdown
