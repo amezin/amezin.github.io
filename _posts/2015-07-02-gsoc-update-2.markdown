@@ -13,6 +13,8 @@ Currently the KCM looks like this:
 
 ![KCM screenshot](/images/kcm.png)
 
+Don't worry, it isn't the final UI, just a minimal demo :)
+
 KDED module is, I think, almost complete. It can apply settings from configuration file, and has a method exported to D-Bus to reload configuration for all devices or for some specific device. Of course, it also applies settings immediately when device is plugged in. The only thing that is missing is auto-disabling of some devices (like disable touchpad when there's an external mouse).
 
 As usual, [here is a link to the repository](http://quickgit.kde.org/?p=scratch%2Falexandermezin%2Fpointing-devices-kcm.git).
